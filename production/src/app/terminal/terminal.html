@@ -1,0 +1,57 @@
+<div class="terminal-container">
+    <div class="status-bar">
+       <span>Satus bar</span>
+    </div>
+
+    <div class="terminal-div">
+       <div class="item-infos">
+            <span class="title-style">Item em produção:</span>
+
+            <div class="item-content">
+                <div>Imagem</div>
+
+                <div class="item-description">
+                    <div>
+                        <span class="item-title-description">Ordem de produção:</span>
+                        <span>Ordem</span>
+                    </div>
+                    <div class="production-item-information">
+                        <div>
+                            <span class="item-title-description"> Cor do produto</span>
+                            <span>Cor</span>
+                        </div>
+                        <div class="item-color" [style.background-color]="'red'"></div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <div class="divider"></div>
+       <div class="item-infos">
+            <span class="title-style">Quantidade de itens</span>
+
+            <div class="production-infos">
+                <app-production-control
+                 [title]="'Produzido'"
+                ></app-production-control>
+
+                <app-production-control
+                [title]="'Rejeitado'"
+                ></app-production-control>
+
+            </div>
+       </div>
+
+
+    </div>
+
+
+    <div class="action-buttons"> 
+        Botões 
+    </div>
+
+    <div class="footer">
+        Footer
+    </div>
+    
+</div>
