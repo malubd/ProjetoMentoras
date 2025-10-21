@@ -31,14 +31,13 @@
             <span class="title-style">Quantidade de itens</span>
 
             <div class="production-infos">
-                <app-production-control
+                <!-- <app-production-control
                  [title]="'Produzido'"
                 ></app-production-control>
 
                 <app-production-control
                 [title]="'Rejeitado'"
-                ></app-production-control>
-
+                ></app-production-control> -->
             </div>
        </div>
 
@@ -47,7 +46,8 @@
 
 
     <div class="action-buttons"> 
-        Botões 
+        <button mat-button class="stop-button" >Parada</button>
+        <button mat-button class="production-button" (click)="setProductionOrder()">Produção</button>
     </div>
 
     <div class="footer">
