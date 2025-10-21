@@ -13,8 +13,7 @@
 
     font-size: 1.8em ;
     font-weight: bold;
-    background-color: red;
-
+    
     color: var(--color-dark-blue-1000);
 }
 
@@ -92,6 +91,12 @@
     grid-template-columns: 2fr 1fr;
 }
 
+.production-item{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .item-color{
     height: 2vw;
     width: 2vw;
@@ -126,6 +131,10 @@ align-items: center;
 
 padding: 5%;
 gap: 5%;
+
+img{
+    height: 120px;
+}
 }
 
 .divider{
@@ -140,3 +149,4 @@ gap: 5%;
     display: grid;
     grid-template-rows: 1fr 1fr;
 }
+

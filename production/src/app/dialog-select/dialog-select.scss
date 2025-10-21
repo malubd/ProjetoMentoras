@@ -29,6 +29,10 @@ h2{
     cursor: pointer;
 }
 
+.selected{
+    background-color: var(--color-dark-blue-1000);
+}
+
 .options-description{
     width: 100%;
     align-items: center;

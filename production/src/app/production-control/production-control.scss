@@ -23,6 +23,20 @@
     border-radius: 10px;
     overflow: hidden;
 }
+.progress-filled{
+    height: 100%;
+    padding: 5%;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    transition: width 0.5s ease;
+
+
+}
+
 .progress-remaining{
     flex: 1;
     display: flex;
